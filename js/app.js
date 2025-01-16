@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let selectedDroneId = null;
 
     setInterval(fetchOrders, 60000);
-    fetchOrders();
+    fetchOrders()
 
     function fetchOrders() {
         fetchData("http://localhost:8080/deliveries")

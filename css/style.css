@@ -126,3 +126,7 @@ input, select {
     font-size: 18px;
     color: #007bff;
 }
+.drone-btn {
+    padding-left: 5px;
+    margin-left: 5px;
+}
